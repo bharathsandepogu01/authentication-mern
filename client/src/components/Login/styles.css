@@ -1,0 +1,46 @@
+.loginForm {
+  max-width: 700px;
+  width: 100%;
+  padding: 4rem;
+  margin: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 5rem;
+}
+
+.loginForm > .heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.loginForm > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.loginForm > form > input {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.loginForm > form > button {
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+
+.loginForm > .text {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.loginForm > .text > span {
+  color: blue;
+  cursor: pointer;
+}
+
+.errorText {
+  color: red;
+}
